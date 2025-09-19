@@ -1,8 +1,9 @@
 export interface Users {
     id: number,
     name: string,
-    username: "Bret",
-    email: "Sincere@april.biz",
+    username: string,
+    email: string,
+    avatarUrl?: string,
     address: {
       street: string,
       suite: string,
